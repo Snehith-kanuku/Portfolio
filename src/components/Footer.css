@@ -1,0 +1,28 @@
+.footer {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.icon-colour {
+  color: #a855f7; /* Purple accent */
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+
+.icon-colour:hover {
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}

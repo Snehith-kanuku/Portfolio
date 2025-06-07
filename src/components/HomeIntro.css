@@ -1,0 +1,59 @@
+/* General Styling */
+.home-about-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 60px 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+}
+
+/* Text Styling */
+.home-about-description h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.home-about-body {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  text-align: left;
+}
+
+/* Highlighted Text */
+.purple {
+  color: #a855f7;
+  font-weight: bold;
+}
+
+/* Avatar Styling */
+.myAvatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myAvatar img {
+  max-height: 300px;
+  border-radius: 50%;
+  transition: transform 0.3s ease-in-out;
+}
+
+.myAvatar img:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-about-description h1 {
+    font-size: 2.2rem;
+  }
+
+  .home-about-body {
+    font-size: 1rem;
+  }
+
+  .myAvatar img {
+    max-height: 200px;
+  }
+}

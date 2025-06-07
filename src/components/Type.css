@@ -1,0 +1,32 @@
+/* Typewriter Text Styling */
+.typewriter-container {
+  font-size: 2.4rem; /* Increased font size */
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  margin-top: 20px;
+}
+
+/* Typewriter Animation Styling */
+.typewriter-container span {
+  color: #a855f7; /* Purple accent */
+}
+
+/* Cursor Blink Effect */
+.Typewriter__cursor {
+  color: #a855f7;
+  font-weight: bold;
+  font-size: 2.4rem; /* Match text size */
+  animation: blink 0.8s infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .typewriter-container {
+    font-size: 2rem; /* Slightly reduced for smaller screens */
+  }
+}

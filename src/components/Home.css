@@ -1,0 +1,74 @@
+/* General Styling */
+.home-section {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+/* Header Styling */
+.home-header .heading {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.home-header .heading-name {
+  font-size: 3.2rem;
+  color: #a855f7;
+}
+
+/* Wave Animation */
+.wave {
+  display: inline-block;
+  animation: wave-animation 2s infinite;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  50% { transform: rotate(20deg); }
+  100% { transform: rotate(0deg); }
+}
+
+/* Animated Text */
+.home-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.typewriter-container {
+  padding: 20px 0;
+  font-size: 1.6rem;
+}
+
+/* Image Styling */
+.img-fluid {
+  max-height: 450px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-fluid:hover {
+  transform: scale(1.05);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-header .heading {
+    font-size: 2.2rem;
+  }
+
+  .home-header .heading-name {
+    font-size: 2.8rem;
+  }
+
+  .typewriter-container {
+    font-size: 1.4rem;
+  }
+
+  .img-fluid {
+    max-height: 300px;
+  }
+}
