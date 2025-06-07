@@ -8,7 +8,7 @@ const projects = [
     title: "E-Commerce Web App",
     description: "Built using React.js, Redux, and Firebase for authentication.",
     icon: <FaReact />,
-    link: "https://github.com/yourusername/ecommerce-app", // Replace with actual GitHub repo
+    link: "https://github.com/Snehith-kanuku/Ecommerce", // Replace with actual GitHub repo
   },
   {
     title: "Employee Management system with Spring Boot",
