@@ -2,8 +2,8 @@
 .home-about-section {
   background-color: #1a1a1a;
   color: white;
-  padding: 60px 0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 60px 20px;
+  font-family: "Gill Sans MT", "Helvetica", "Arial", sans-serif;
   text-align: center;
 }
 
@@ -12,6 +12,7 @@
   font-size: 2.8rem;
   font-weight: bold;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .home-about-body {
@@ -22,7 +23,7 @@
 
 /* Highlighted Text */
 .purple {
-  color: #a855f7;
+  color: #b366ff; /* Adjusted for better visibility on dark backgrounds */
   font-weight: bold;
 }
 
@@ -36,21 +37,27 @@
 .myAvatar img {
   max-height: 300px;
   border-radius: 50%;
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.4s ease-in-out, filter 0.3s ease-in-out;
 }
 
 .myAvatar img:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
+  filter: brightness(1.1);
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .home-about-section {
+    padding: 40px 10px;
+  }
+
   .home-about-description h1 {
     font-size: 2.2rem;
   }
 
   .home-about-body {
     font-size: 1rem;
+    text-align: center;
   }
 
   .myAvatar img {

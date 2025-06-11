@@ -35,7 +35,7 @@ const HomeIntro = () => {
               <i>
                 <b className="purple">Backend Development, Web Technologies .</b>
               </i>{" "}
-              with a focus on scalable and high-performance applications.
+              <p>with a focus on scalable and high-performance applications. </p>
               <br />
               <br />
               I love building innovative solutions using{" "}
