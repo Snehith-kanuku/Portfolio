@@ -17,7 +17,7 @@ const Particle = () => {
           color: "", // Changed to a solid color for better visibility
         },
         particles: {
-          number: { value: 80 },
+          number: { value: 40 },
           size: { value: 4 },
           move: { enable: true, speed: 1 },
           shape: { type: "circle" },
@@ -93,11 +93,7 @@ const Particle = () => {
           
         },
         interactivity: {
-          events: {
-            onHover: { enable: true, mode: "repulse" },
-            onClick: { enable: true, mode: "push" },
-            resize: true,
-          },
+          
           modes: {
             grab: { distance: 140, links: { opacity: 1 } },
             bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
